@@ -1,14 +1,18 @@
 spring:
   application:
-        name: FeignClientProjectTest
+        name: WelcomeRestApis
   boot:
     admin:
       client:
         url: http://localhost:1111/
-server:
-  port: 9999
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+# include: "*"   This is for actuator enable
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+msg: this is the Welocme YML file
