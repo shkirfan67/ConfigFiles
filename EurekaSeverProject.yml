@@ -6,6 +6,8 @@ server:
 spring:
   application:
     name: EurekaServerProject
+msg: This is the Yml file of Eureka server
+
 
 
 
