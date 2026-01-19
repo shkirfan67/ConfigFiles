@@ -1,6 +1,6 @@
 spring:
   application:
-        name: WelcomeRestApis
+        name: FeignClientProjectTest
   boot:
     admin:
       client:
