@@ -1,6 +1,7 @@
+server:
+  port: 8889
+msg: This is the Yml file of ApiGatewayProject
 spring:
-  application:
-        name: ApiGatewayProjectExample
   cloud:
     gateway:
       server:
@@ -10,9 +11,8 @@ spring:
               uri: lb://WelcomeRestApis
               predicates:
                 - Path=/welcome/**
+
             - id: api-2
               uri: lb://FeignClientProjectTest
               predicates:
                 - Path=/test/**
-server:
-  port: 8889
