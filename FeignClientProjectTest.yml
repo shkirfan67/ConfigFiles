@@ -15,4 +15,4 @@ management:
     web:
       exposure:
         include: "*"
-msg: this is the Welocme YML file
+msg: this is the FeignClient YML file
