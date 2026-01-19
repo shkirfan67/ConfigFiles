@@ -3,3 +3,4 @@ spring:
         name: AdminServer
 server:
   port: 1111
+msg: This is the YML file of Admin Server...
